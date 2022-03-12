@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 get_icon() {
     case $1 in
@@ -40,7 +40,7 @@ get_icon() {
 
     echo $icon
 }
-source .api.txt
+source ~/.config/polybar/scripts/openweathermap/.api.txt
 #KEY=""
 CITY="Moscow,RU"
 UNITS="metric"
